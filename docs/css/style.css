@@ -30,4 +30,27 @@ header{
 }
 .perfil{
     border-radius: 25px;
+    
+}
+.caracteristicas_do_perfil{
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    width: 70%;
+    height: 5%;
+    border: .1rem solid white;
+}
+.login_conta{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50%;
 }
