@@ -5,14 +5,14 @@ html{
 }
 body{
     font-family: inherit;
-    height:inherit
+    height:inherit;
 }
 main{
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: inherit;
+    height: 90%;
     background-color: #2E2E2D;
     color: white;
 }
@@ -23,7 +23,7 @@ header{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 2.3rem;
+    height: 5%;
     border-bottom: .1rem solid black;
     background-color: #510099;
     color: white;
@@ -51,6 +51,20 @@ nav a {
     align-items: center;
   }
 
+ul.a{
+    list-style-type: circle;
+    margin-left: 1rem;
+}
+
+ul.b{
+    list-style-type: square;
+    margin-left: 1rem;
+}
+
+ul.a li{
+    padding:0.05rem
+}
+
 .test{
     flex-grow: 1;
     display: flex;
@@ -62,24 +76,24 @@ nav a {
 }
 
 .menssagem{ 
+    flex-grow: 1;
     display: flex;
     flex-direction:column;
     justify-content: space-between;
     margin-top: 0.5rem;
     padding: 0.5rem;
     width: 75%;
-    height:95%;
+    height:90%;
 }
 
 .lista{
+    flex-grow: 1;
     display: flex;
     flex-direction:column;
     justify-content: flex-start;
     overflow-y: auto;
-    margin-top: 0.5rem;
-    padding: 0.5rem;
-    width: 75%;
-    height:95%;
+    width: 100%;
+    height:90%;
 }
 
 .icone{
@@ -92,10 +106,10 @@ nav a {
 }
 
 .placa{
+    flex-grow: 1;
     display: flex;
     flex-direction: row;
-    margin-top: 0.5rem;
-    padding: 0.5rem;
+    padding: 0.7rem;
 }
 
 .menu{
@@ -134,3 +148,4 @@ nav a {
     justify-content: space-evenly;
     height: 50%;
 }
+
