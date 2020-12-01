@@ -1,7 +1,8 @@
 
 html{
     font-family: Libre Baskerville, serif, 'Secular One', 'Alfa Slab One', sans-serif;
-    height:100%;
+    height: 100%;
+    width: 100%;
 }
 
 body{
@@ -39,6 +40,16 @@ header{
     border-bottom: .1rem solid black;
     background-color: #510099;
     color: white;
+}
+
+header.alternativo{
+    background-color: #F9FF81;
+    color: black;
+}
+
+header.alternativo > header{
+    background-color:0;
+    color:0;
 }
 
 nav {
