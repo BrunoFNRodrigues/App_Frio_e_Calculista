@@ -228,6 +228,7 @@ li.search{
 }
 
 .mensagem2{
+    flex-grow: 1;
     margin-right: 16rem;
     border: .1rem solid #510099;
     margin-top: 1rem;
@@ -237,6 +238,19 @@ li.search{
     color: #510099;
     background-color: white;
     width: 20%;
+}
+
+.mensagem3{
+    flex-grow: 1;
+    margin-right: 16rem;
+    border: .1rem solid #510099;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.9rem;
+    border-radius: 25px;
+    color: #510099;
+    background-color: white;
+    width: 50%;
 }
 
 .search2{
