@@ -1,12 +1,15 @@
 
 html{
-    font-family: 'Merriweather', 'Libre Baskerville', serif, 'Secular One', 'Alfa Slab One', sans-serif;
+    font-family: Libre Baskerville, serif, 'Secular One', 'Alfa Slab One', sans-serif;
     height:100%;
 }
+
 body{
     font-family: inherit;
+    font-size: 100%;
     height:inherit;
 }
+
 main{
     flex-grow: 1;
     display: flex;
@@ -15,6 +18,14 @@ main{
     height: 90%;
     background-color: #2E2E2D;
     color: white;
+}
+
+main.especial{
+    height: 95%;
+}
+
+main.especial > main{
+    height: 0;
 }
 
 header{
@@ -52,17 +63,36 @@ nav a {
   }
 
 ul.a{
-    list-style-type: circle;
     margin-left: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 ul.b{
-    list-style-type: square;
+    list-style-type: circle;
     margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+ul.c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.b li{
+    border: none;
+}
+
+ul.a li > ul.b li{
+    border: none;
 }
 
 ul.a li{
-    padding:0.05rem
+    padding:0.05rem;
+    border: 1px solid;
+    border-color: #A356E7;
+    margin-left: 0.5rem;
 }
 
 .test{
@@ -103,6 +133,12 @@ ul.a li{
 
 .editar{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+    background-color: #510099;
+    color:  white;
 }
 
 .placa{
@@ -147,5 +183,18 @@ ul.a li{
     align-items: center;
     justify-content: space-evenly;
     height: 50%;
+}
+
+p.f{
+    margin-bottom: 0.5rem;
+}
+
+li.search{
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.7rem;
 }
 
